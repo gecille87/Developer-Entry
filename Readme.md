@@ -1,6 +1,6 @@
 # Fruitify: The Ultimate Inventory Builder using Fruitask API 🍇🍌🍎
 
-Fruitify is a powerful inventory management tool designed to interact seamlessly with the **Fruitask API**. It enables users to create, read, update, and delete (CRUD) fruit entries in the database effortlessly.
+Your challenge is to build a simple inventory management application for fruits using the [**Fruitask API**](https://avocado-5.gitbook.io/fruitask-api/quick-start). The application will perform CRUD (Create, Read, Update, Delete) operations on the database and handle common API interactions effectively
 
 ---
 
@@ -9,10 +9,11 @@ Use the following credentials to authenticate your API requests:
 - **TOKEN_ID:** `lZeEklqhQY9BBEU`
 - **API_KEY:** `81451979866a85a2217844a541964137`
 
+You can view your database [here](https://invite.fruitask.com/lZeEklqhQY9BBEU)
 ---
 
-### **Program Features**
-
+### **Features to Implement**
+Your task is to build the following functionalities:
 1. **Create Fruit Entry**
    - Add a new fruit to the inventory, including details such as name, quantity, and price.
    - **Bonus:** Validate entries so that if the fruit name already exists, it updates the existing fruit instead of creating a duplicate.
@@ -29,26 +30,26 @@ Use the following credentials to authenticate your API requests:
 ---
 
 ### **Error Handling**
-Fruitify ensures robust error handling by gracefully managing issues such as:
-- Invalid inputs
-- Authentication failures
-- Server-related errors
+Make sure to account for:
+- Invalid input data (e.g., missing fields or incorrect data types).
+- Authentication issues (e.g., failed token verification).
+- Server-related errors, such as timeouts or connectivity issues.
 
 ---
 
 ### **Example Use Case**
-A fruit vendor can utilize Fruitify to manage their inventory effectively:
+Imagine you are a fruit vendor trying to streamline your inventory management:
 - Add fruits like **Apple** or **Banana** with starting stock and price details.
-- View their entire stock and update fruit prices based on market trends.
+- View the full inventory to monitor stock levels.
+- Update fruit prices based on market trends.
 - Remove fruits that are out of season or no longer sold.
 
 ---
 
 ### **Technical Requirements**
 - Use **Python** with the `requests` module, or **PHP** with `cURL` or `Guzzle`, to interact with the API.
-- Secure API credentials using **environment variables**.
 - Provide a simple **Command-Line Interface (CLI)** or a basic **web interface** (optional for PHP with HTML forms).
-- Reinforce the concepts of API integration and error handling.
+- Focus on implementing clean, modular code that reinforces API integration and error handling concepts.
 
 ---
 
