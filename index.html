@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruitify: The Ultimate Inventory Builder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+  <header class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl font-bold">Fruitify: The Ultimate Inventory Builder 🍇🍌🍎</h1>
+      <p class="mt-4 text-lg">Build a fruit inventory management app using the <a href="https://avocado-5.gitbook.io/fruitask-api/quick-start" class="underline font-semibold">Fruitask API</a>. Perform CRUD operations and handle API interactions effortlessly!</p>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto py-12">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">API Credentials</h2>
+      <p>Use the following credentials to authenticate your API requests:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li><strong>TOKEN_ID:</strong> <code class="bg-gray-200 p-1 rounded">lZeEklqhQY9BBEU</code></li>
+        <li><strong>API_KEY:</strong> <code class="bg-gray-200 p-1 rounded">81451979866a85a2217844a541964137</code></li>
+      </ul>
+      <p class="mt-4">You can view your database <a href="https://invite.fruitask.com/lZeEklqhQY9BBEU" class="text-blue-500 underline font-semibold">here</a>.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Features to Implement</h2>
+      <p>Your task is to build the following functionalities:</p>
+      <ol class="list-decimal pl-5 mt-2">
+        <li><strong>Create Fruit Entry:</strong> Add a new fruit, including details like name, quantity, and price. <em>Bonus:</em> Validate entries to update existing fruits.</li>
+        <li><strong>View Inventory:</strong> Fetch and display all fruits in a user-friendly format.</li>
+        <li><strong>Update Fruit Details:</strong> Modify the quantity or price of existing fruits.</li>
+        <li><strong>Delete Fruit Entry:</strong> Remove any fruit from the inventory.</li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Error Handling</h2>
+      <p>Ensure the application accounts for:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Invalid input data (e.g., missing fields or incorrect data types).</li>
+        <li>Authentication issues (e.g., failed token verification).</li>
+        <li>Server-related errors like timeouts or connectivity problems.</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Example Use Case</h2>
+      <p>Imagine you are a fruit vendor trying to streamline your inventory management:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Add fruits like <strong>Apple</strong> or <strong>Banana</strong> with stock and pricing details.</li>
+        <li>View the full inventory to monitor stock levels.</li>
+        <li>Update fruit prices based on market trends.</li>
+        <li>Remove fruits that are out of season or no longer sold.</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Technical Requirements</h2>
+      <p>Your implementation should include:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Use <strong>Python</strong> with the <code class="bg-gray-200 p-1 rounded">requests</code> module or <strong>PHP</strong> with <code class="bg-gray-200 p-1 rounded">cURL</code>/<code class="bg-gray-200 p-1 rounded">Guzzle</code>.</li>
+        <li>Provide a simple <strong>Command-Line Interface (CLI)</strong> or a basic <strong>web interface</strong> (optional for PHP).</li>
+        <li>Focus on clean, modular code that reinforces API integration and error handling concepts.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 py-6 text-center">
+    <p class="text-sm text-gray-500">Let’s bring your inventory to life with <strong>Fruitify</strong> and streamline your fruit management like never before! 🍍</p>
+  </footer>
+
+</body>
+</html>
